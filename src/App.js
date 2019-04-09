@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HelloWorld from "./HelloWorld";
 import ButtonGroup from './ButtonGroup';
 import { store } from './store';
-
+import { connect } from 'react-redux';
 
 class App extends Component {
   // state object removed.
@@ -14,4 +14,4 @@ class App extends Component {
   };
 };
 
-export default App;
+export default connect(null, {})(App);

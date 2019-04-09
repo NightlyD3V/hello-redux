@@ -1,8 +1,8 @@
 //action creators
-export function setTechnology (text) {
+const setTechnology = (text) => {
     //action
     return {
         type: "SET_TECHNOLOGY",
-        tech: text
+        text: text
     }
 }
